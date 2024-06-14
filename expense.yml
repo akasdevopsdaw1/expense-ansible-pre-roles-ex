@@ -1,4 +1,4 @@
-- name: Frontend App
+- name: Expense Project App
   hosts: all
   become: yes
   roles:
