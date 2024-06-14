@@ -1,5 +1,7 @@
 - name: Expense Project App
   hosts: all
   become: yes
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   roles:
     - "{{ role_name }}"
